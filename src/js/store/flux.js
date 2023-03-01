@@ -1,6 +1,9 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
+			vehicles: [],
+			people: [],
+			planets: [],
 			demo: [
 				{
 					title: "FIRST",
